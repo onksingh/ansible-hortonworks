@@ -1,4 +1,2 @@
 ---
 - include: install_cluster.sh
-  vars:
-    CLOUD_TO_USE=static
