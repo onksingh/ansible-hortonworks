@@ -1,3 +1,3 @@
 ---
-- hosts: all
-- import_playbook: install_cluster.sh
+- name: Run a script with arguments
+  script: install_cluster.sh --CLOUD_TO_USE static
