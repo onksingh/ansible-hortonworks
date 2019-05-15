@@ -1,2 +1,3 @@
 ---
-- include: install_cluster.sh
+- hosts: all
+- import: install_cluster.sh
