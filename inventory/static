@@ -7,8 +7,7 @@
 ######################################################
 
 [hdf-management]
-master01 <ansible_host=192.168.0.2> ansible_user=centos rack=/default-rack
+
 
 [hdf-worker01]
-slave01 ansible_host=192.168.0.3 ansible_user=centos rack=/default-rack
-#slave02 ansible_host=192.168.0.4 ansible_user=centos ansible_ssh_pass=changeme
+
