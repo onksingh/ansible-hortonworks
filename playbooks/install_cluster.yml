@@ -1,4 +1,6 @@
 ---
+- hosts: all
+
 - import_playbook: "prepare_nodes.yml"
   tags: prepare_nodes
 
