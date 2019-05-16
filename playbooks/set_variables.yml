@@ -1,7 +1,7 @@
 ---
 - name: Create the required Ansible groups
-  hosts: all
-  #connection: local
+  hosts: localhost
+  connection: local
   gather_facts: False
   tasks:
     - name: Add nodes to the hadoop-cluster group and groups representing the host_groups
