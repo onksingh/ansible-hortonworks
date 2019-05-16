@@ -179,7 +179,7 @@ blueprint_dynamic:                                        # properties for the d
       - METRICS_COLLECTOR
       - METRICS_GRAFANA
       - METRICS_MONITOR
-  - host_group: "hdf-worker"
+  - host_group: "hdf-worker01"
     clients: ['ZOOKEEPER_CLIENT', 'INFRA_SOLR_CLIENT']
     services:
       - ZOOKEEPER_SERVER
